@@ -1,0 +1,397 @@
+Spotify clone project with Pure html and css
+index.html code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html"target="blank">Home</a>
+    <a href="news.html"target="blank">News</a>
+    <a href="contact.html"target="blank">Contact</a>
+    <a href="about.html"target="blank">About</a>
+    <a href="Lyrics.html"target="blank">Lyrics</a>
+  </div>
+  <div>
+    <h1 class="heading">Welcome to Spotify</h1>
+    <h2 class="heading_2">Listen to Millions of songs</h2>
+  </div>
+  <div class="iframes">
+    <h1 class="fearless">Fearless</h1>
+    <iframe width="234" height="234" src="https://www.youtube.com/embed/PeVqgynorvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div>
+    <h1 class="fly_away">Fly Away</h1>
+    <iframe width="234" class="fly_away_video" height="234" src="https://www.youtube.com/embed/cMg8KaMdDYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div>
+    <h1 class="on_and_on">On and On</h1>
+    <iframe width="234" height="234" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div>
+    <h1 class="alone">Alone</h1>
+    <iframe width="234" height="234" src="https://www.youtube.com/embed/GPvBmcoriNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
+
+index.html Css -->
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+    .heading {
+      color: green;
+    }
+    body {
+      background: rgb(173, 231, 173);
+    }
+    .heading_2 {
+      color: rgb(201, 20, 80);
+    }
+    .fearless {
+      color: rgb(32, 7, 248);
+      padding-left: 43px;
+    }
+    .fly_away {
+      color: chocolate;
+      padding-left: 43px;
+      margin-bottom: 23px;
+    }
+    .on_and_on {
+      color: darkcyan;
+      padding-left: 43px;
+    }
+    .alone {
+      color: darkorchid;
+      padding-left: 43px;
+    }
+    
+    about.html html -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>About Us</title>
+</head>
+<body style="background-color: rgb(244, 209, 250);">
+    <h1 style="color: darkorchid;">About Us</h1> <br> <hr>
+    <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkred;">Spotify is a digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world. Basic functions such as playing music are totally free, but you can also choose to upgrade to Spotify Premium. ... Build collections of music and podcasts. And more!</h2>
+</body>
+</html>
+
+nes.html html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Spotify News</title>
+</head>
+<body>
+    <h1 class="news">Spotify News</h1> <hr>
+    <h1>Spotify defends handling of Joe Rogan controversy amid uproar</h1>
+    <h2>As Spotify released an earnings report Wednesday underscoring the importance of podcasts to its business model, company officials said that they did not expect their subscriber numbers to be affected by the uproar over accusations that its most popular podcaster, Joe Rogan, had spread misinformation about COVID-19 and vaccines.  
+
+        The company has been embroiled in controversy since Neil Young removed his music from the streaming platform last week, citing Rogan’s podcast and calling Spotify “the home of life-threatening COVID misinformation.” Joni Mitchell and several other artists and podcasters followed suit amid widespread calls on social media to boycott the company. Officials responded by publishing the service’s platform rules and saying that Spotify would begin adding content advisories to podcasts about the coronavirus. <br>
+        
+        But in an earnings call Wednesday afternoon, Daniel Ek, Spotify’s CEO and co-founder, said that the company’s expectations of premium users in the current quarter did not anticipate “churn” caused by the controversy over “The Joe Rogan Experience.”  <br>
+        
+        “In general, what I would say is, it’s too early to know what the impact may be,” Ek said in the call. “And usually when we’ve had controversies in the past, those are measured in months and not days. But I feel good about where we are in relation to that and obviously top line trends looks very healthy still.” <br>
+        
+        Ek defended the measures the streaming service is taking to combat misinformation, and spoke of “supporting greater expression while balancing it with the safety of our users.”</h2>
+</body>
+</html>
+
+news.html css -->
+        .news {
+            color: rgb(46, 31, 182);
+        }
+        body {
+            background-color: rgb(34, 245, 97);
+        }
+        h2 {
+            text-align: left;
+        }
+        
+lyrics.html html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1 style="color: coral;"><pre>Fearless Pt. II  <br>
+        Lost Sky <br> <hr>
+        Over the edge
+        Feel like I'm floating through the air
+        The pain I felt is paid for, all is said and done, oh
+        I am restricted, fixed upon the web
+        I need to kick the habit that my mind is breathing in
+        Break out, I've got to see (break out, I've got to see)
+        Spent all my life holding all of it closely
+        I played it innocent, a feel of discontent
+        I'm finally facing it all, fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Burning the bridge that keeps us
+        I'm here and I'm feeling fearless
+        Exaggerated, that's what you assume
+        The story's over now, I must conclude
+        I am conflicted, watching where I step, still
+        hanging in the balance, not the life I want to live
+        I want to take it all, standing tall
+        Fear outweighed the person you are (oh-ooh)
+        Break out, I've got to see (break out, I've got to see)
+        Spent all my life holding all of it closely
+        I played it innocent, a feel of discontent
+        I'm finally facing it all, fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless
+        Fearless</pre></h1><hr>
+        <h1 style="color: crimson;"><pre>Fly Away <br> 
+            TheFatRat <br> <hr>
+            Come and fly away with me
+            Come and fly away with me
+            Come and fly away with me
+            Co-co-come and fly away with me
+            Come and fly away with me
+            Come and fly away with me
+            Come and fly away with me
+            Co-co-come and fly away with me
+            Don't you be afraid
+            Everything will change
+            You and I
+            Jumping off the edge
+            They say dreamers never die
+            So, come and fly
+            Come and fly
+            Come and fly away with me
+            We're rising, we're falling
+            We'll make it through
+            We're climbing, we're soaring
+            A thousand views
+            We're rising, we're falling
+            We'll make it through
+            We're climbing, we're soaring
+            A thousand views
+            Somewhere by the emerald sea
+            Where the moon and water meet
+            Somewhere close to harmony
+            When the world is sound asleep
+            Something's gonna bring the change
+            Journeys we are meant to take
+            Something at the edge of space
+            Calling us to fly away
+            Don't you be afraid
+            Everything will change
+            You and I
+            Jumping off the edge
+            They say dreamers never die
+            So, come and fly
+            Come and fly
+            Come and fly away with me
+            We're rising, we're falling
+            We'll make it through
+            We're climbing, we're soaring
+            A thousand views
+            We're rising, we're falling
+            We'll make it through
+            We're climbing, we're soaring
+            A thousand views
+            Come and fly away
+            Come and come and fly away
+            Come and fly away with me
+            Come and fly away
+            Come and come and fly away
+            Come and fly away with me
+            Something's gonna bring a change
+            Journeys we are meant to take
+            Something at the edge of space
+            Calling us to fly away</pre></h1>
+            <h1><pre>On & On <br>
+                Cartoon <br> <hr>
+                Hold me close 'til I get up
+                Time is barely on our side
+                I don't wanna waste what's left
+                The storms we chase are leading us
+                And love is all we'll ever trust, yeah
+                No, I don't wanna waste what's left
+                And on and on we'll go
+                Through the wastelands, through the highways
+                'Til my shadow turns to sun rays
+                And on and on we'll go
+                Through the wastelands, through the highways
+                And on and on we'll go
+                Oh, on we'll go
+                Finding life along the way
+                Melodies we haven't played
+                No, I don't want no rest
+                Echoin' around these walls
+                Fighting to create a song (yeah)
+                I don't wanna miss a beat
+                And on and on we'll go
+                Through the wastelands, through the highways
+                'Til my shadow turns to sun rays
+                And on and on we'll go
+                Through the wastelands, through the highways
+                And on and on we'll go
+                And we'll grow in number
+                Fueled by thunder, see the horizon
+                Turn us to thousands
+                And we'll grow in number
+                Fueld by thunder, see the horizon
+                Turn us to thousands
+                And on and on we'll go
+                Through the wastelands, through the highways
+                'Til my shadow turns to sun rays
+                And on and on we'll go
+                Through the wastelands, through the highways
+                And on and on we'll go
+                </pre></h1>
+                <h1><pre>Alone, Pt. II <br>
+                    Alan Walker, Ava Max <br> <hr>
+                    We were young, posters on the wall
+                    Praying we're the ones that the teacher wouldn't call
+                    We would stare at each other
+                    'Cause we were always in trouble
+                    And all the cool kids did their own thing
+                    I was on the outside, always looking in
+                    Yeah, I was there but I wasn't
+                    They never really cared if I was in
+                    We all need that someone
+                    Who gets you like no one else
+                    Right when you need it the most
+                    We all need a soul to rely on
+                    A shoulder to cry on
+                    A friend through the highs and the lows
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    Then I saw your face, your forgiving eyes
+                    Looking back at me from the other side
+                    Like you understood me
+                    And I'm never letting you go, oh
+                    We all need that someone
+                    Who gets you like no one else
+                    Right when you need it the most
+                    We all need a soul to rely on
+                    A shoulder to cry on
+                    A friend through the highs and the lows
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la 'lone
+                    'Cause you are that someone
+                    That gets me like no one else
+                    Right when I need it the most
+                    And I'll be the one you rely on
+                    A shoulder to cry on
+                    A friend through the highs and the lows
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la-la 'lone
+                    I'm not gonna make it alone
+                    La-la-la-la-la la
+                    La-la-la-la-la-la 'lone
+                    I'm not gonna make it alone</pre></h1>
+        
+</body>
+</html>
+
+contact.html html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatct Us</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+     <h1>Contact Us</h1> <hr>
+    <h2>Office Working Hours:-  <br>
+    Monday to Friday - 9:30 am to 8:00 am <br>
+Saturday and Sunday - Off</h2>
+
+<h2>
+    Phone Number :- <br>
+    934563220 - CEO <br>
+    573688773 - Office 
+
+</h2>
+</body>
+</html>
+
+Done   
